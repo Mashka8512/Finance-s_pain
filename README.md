@@ -3,7 +3,7 @@ This is some simple code, which processes the time series of quotes and marke pr
 The main idea - convert time series to independent elements. At first, we need to smooth out a time series and split 
 into sample elements. And after, we will predict trend with help KNN algorithm.
 
-The main class name: finance. 
+The main class name: Learner. 
 
 Options:
  - k_neighbors - parameter of KNN algorithm, amount of nearest neighbors.
